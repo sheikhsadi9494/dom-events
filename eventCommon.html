@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <p id="event-method"></p>
+    <button onclick="onlyFuncation()">just fucation</button>
+    <button id="direact">direact</button>
+    <script>
+        // only funcation 
+        function onlyFuncation(){
+            const p = document.getElementById('event-method');
+            p.innerText = "This text is form fucation";
+        };
+        e
+        document.getElementById('direact').addEventListener('click', function(){
+            const p = document.getElementById('event-method');
+            p.innerText = 'This text is from direct event listener';
+        })
+    </script>
+</body>
+</html>
